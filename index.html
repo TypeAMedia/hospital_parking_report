@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Hospital Parking Report</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+    rel="stylesheet">
+
+  <link rel="stylesheet" href="./libs/css/choices.min.css">
+  <link rel="stylesheet" href="./libs/css/bootstrap.min.css">
+
+  <link rel="stylesheet" href="./styles/main.css" />
+  <link rel="stylesheet" href="./styles/table.css" />
+</head>
+
+<body>
+  <div class="main-container">
+
+    <div class="content">
+      <div class="main-title">Hospital <br /> parking </div>
+      <div class="desktop sub-title"> Explore England’s hospital parking facilities, looking at price, spaces,
+        locations
+        and
+        ratings.</div>
+    </div>
+
+    <div class="table-container">
+      <div class="dropdown">
+        <select id="region_sel"></select>
+      </div>
+      <div class="legend">
+        <div class="labels">
+          <div class="label">Lower score</div>
+          <div class="label">Higher score</div>
+        </div>
+        <div class="items">
+          <div class="item"></div>
+          <div class="item"></div>
+          <div class="item"></div>
+          <div class="item"></div>
+        </div>
+
+
+        <div id="table" class="js-table"></div>
+      </div>
+    </div>
+
+
+  </div>
+
+  <script src="./libs/js/d3.v7.min.js"></script>
+  <script src="./libs/js/choices.min.js"></script>
+  <script src="./scripts/DataStore.js"></script>
+  <script src="./scripts/config.js"></script>
+  <script src="./scripts/table.js"></script>
+  <script src="./scripts/utils.js"></script>
+  <script src="./scripts/main.js"></script>
+</body>
+
+</html>

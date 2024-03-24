@@ -1,0 +1,237 @@
+:root {
+  --dark-blue: #183147;
+  --red: #d8504a;
+  --dark-green: #324C3D;
+  --black: #101921;
+
+  --swiper-navigation-size: 20px;
+  --swiper-navigation-color: #E5AA20;
+  --swiper-pagination-color: #E5AA20;
+  --swiper-pagination-bullet-inactive-color: #D8D8D8;
+  --swiper-pagination-bullet-inactive-opacity: 1;
+}
+
+
+/* Utilities */
+
+.d-desktop {
+  display: none;
+}
+
+.d-mobile {
+  display: initial;
+}
+
+/* End of utilities */
+
+html,
+body {
+  font-family: "Montserrat", "Open Sans", sans-serif;
+  font-style: normal;
+  color: var(--dark-blue);
+}
+
+.main-container {
+  background: #E8EFF3;
+  max-width: 750px;
+  margin: 0 auto;
+}
+
+.main-title {
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 40px;
+  text-align: center;
+  text-transform: uppercase;
+  color: var(--black);
+  margin-bottom: 0px;
+}
+
+.sub-title {
+  text-align: start;
+  margin-top: 20px;
+  margin-bottom: 0px;
+}
+
+.table-container {
+  margin: 0 auto;
+  margin-top: 20px;
+  background: #FFFFFF;
+  max-width: 100%;
+  padding: 17px;
+}
+
+
+
+.dropdown {}
+
+
+.legend {
+  padding: 0px;
+  margin-top: 20px;
+}
+
+.legend .labels {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.legend .label {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 26px;
+}
+
+.legend .items {
+  display: flex;
+  align-items: center;
+  border-radius: 10px;
+}
+
+.legend .item {
+  flex-grow: 1;
+  height: 9px;
+}
+
+.legend .item:nth-child(1) {
+  background-color: #44B8F3;
+  border-bottom-left-radius: 4px;
+  border-top-left-radius: 4px;
+}
+
+.legend .item:nth-child(2) {
+  background-color: #44B8F380;
+  ;
+}
+
+.legend .item:nth-child(3) {
+  background-color: #49D69D80;
+  ;
+}
+
+.legend .item:nth-child(4) {
+  background-color: #49D69D;
+  border-bottom-right-radius: 4px;
+  border-top-right-radius: 4px;
+  ;
+}
+
+.banner-background img {
+  width: 192px;
+}
+
+.content {
+  padding: 45px 30px;
+}
+
+/* Choices */
+.choices {
+  z-index: 2;
+}
+
+.choices__inner {
+  background: #FFFFFF;
+  box-shadow: 0px 2px 2px 0px #10192133;
+  box-shadow: 0px 4px 20px 0px #1019211A;
+  border-radius: 4px;
+  border: none !important
+}
+
+.choices.is-open .choices__inner {
+  background: #FFFFFF;
+  box-shadow: 0px 2px 2px 0px #10192133;
+  box-shadow: 0px 4px 20px 0px #1019211A;
+  border-radius: 4px;
+  border: none !important
+}
+
+.choices.is-focused .choices__inner {
+  background: #FFFFFF;
+  box-shadow: 0px 2px 2px 0px #10192133;
+  box-shadow: 0px 4px 20px 0px #1019211A;
+  border-radius: 4px;
+  border: none !important
+}
+
+.choices__list--dropdown {
+  box-shadow: 0px 2px 2px 0px #10192133;
+  box-shadow: 0px 4px 20px 0px #1019211A;
+  border-radius: 4px;
+  color: var(--black);
+  border: none !important
+}
+
+.is-open .choices__list--dropdown {
+  /* border-color: #406A73; */
+}
+
+.choices__list .choices__item--disabled {
+  display: none;
+}
+
+.choices[data-type*=select-one] .choices__inner {
+  padding: 10px !important
+}
+
+.choices[data-type*="select-one"]:after {
+  border-color: transparent;
+  border-width: 0px;
+  margin-top: 0px;
+  background-image: url(../images/arrow.svg);
+  background-repeat: no-repeat;
+  background-size: 18px 9px;
+  width: 19px;
+  height: 9px;
+  transform: translateY(-50%);
+  right: 16px;
+}
+
+.choices.is-open.is-focused:after {
+  border-color: transparent;
+  transform: rotate(180deg);
+  margin-top: -4px;
+}
+
+.choices__inner .choices__item[data-value=""] {
+  font-weight: 700;
+}
+
+@media (min-width: 576px) {
+
+  .sub-title {
+    margin: 0 auto;
+    max-width: 400px;
+    font-weight: 400;
+    font-size: 16px;
+    text-align: center;
+    line-height: 24px;
+    margin-bottom: 30px;
+    margin-top: 20px;
+    color: var(--black);
+  }
+
+  .table-container {
+    margin-top: 20px;
+    margin: 0 auto;
+    background: #FFFFFF;
+    max-width: 500px;
+    padding: 17px;
+    border-top: 2px solid #49D69D
+  }
+
+  .banner .dropdown {
+    padding: 22px 12%;
+  }
+
+
+  .banner .titles {
+    padding-right: 30px;
+    margin-bottom: 30px;
+    text-align: left;
+  }
+
+  .content {
+    padding: 45px 30px;
+  }
+}
