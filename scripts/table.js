@@ -40,9 +40,9 @@ function Table(params) {
       firstColumnWidth: {
         // city column width (varies based on screen size),
         xs: 125,
-        sm: 135,
-        md: 135,
-        lg: 135,
+        sm: 145,
+        md: 145,
+        lg: 145,
         rest: 145,
       },
       pageSize: {

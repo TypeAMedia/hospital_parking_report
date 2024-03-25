@@ -11,6 +11,24 @@
   --swiper-pagination-bullet-inactive-opacity: 1;
 }
 
+@font-face {
+  font-weight: 700;
+  font-family: 'PreplyInter';
+  src: url(../fonts/PreplyInter-Bold.otf) format("opentype");
+}
+
+@font-face {
+  font-weight: 500;
+  font-family: 'PreplyInter';
+  src: url(../fonts/PreplyInter-Medium.otf) format("opentype");
+}
+
+@font-face {
+  font-weight: 400;
+  font-family: 'PreplyInter';
+  src: url(../fonts/PreplyInter-Regular.otf) format("opentype");
+}
+
 
 /* Utilities */
 
@@ -28,7 +46,7 @@ html,
 body {
   font-family: "Montserrat", "Open Sans", sans-serif;
   font-style: normal;
-  color: var(--dark-blue);
+  color: var(--black);
 }
 
 .main-container {
@@ -39,6 +57,7 @@ body {
 
 .main-title {
   font-weight: 700;
+  font-family: 'Montserrat';
   font-size: 40px;
   line-height: 40px;
   text-align: center;
@@ -55,7 +74,6 @@ body {
 
 .table-container {
   margin: 0 auto;
-  margin-top: 20px;
   background: #FFFFFF;
   max-width: 100%;
   padding: 17px;
@@ -194,7 +212,8 @@ body {
 }
 
 .choices__inner .choices__item[data-value=""] {
-  font-weight: 700;
+  font-weight: 800;
+  font-family: 'Montserrat';
 }
 
 @media (min-width: 576px) {
@@ -206,7 +225,7 @@ body {
     font-size: 16px;
     text-align: center;
     line-height: 24px;
-    margin-bottom: 30px;
+    margin-bottom: 10px;
     margin-top: 20px;
     color: var(--black);
   }
