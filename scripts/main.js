@@ -1,12 +1,9 @@
 class App {
 	constructor() {
-
-
 		d3.csv('./data/data.csv', d3.autoType).then(resp => {
 			this.data = resp
-			console.log(this.data)
-
-			const regionsList = this.data.map((d) => d.region)
+			let regionsList = ['All regions']
+			regionsList.push(...this.data.map((d) => d.region))
 			const uniqueRegions = Array.from(new Set(regionsList))
 
 			this.dropdown = initDropdown({
@@ -30,6 +27,10 @@ class App {
 		} else {
 			filteredData = this.data.filter((d) => !d.borough)
 		}
+
+		if (region === 'All regions') {
+			filteredData = this.data.filter((d) => !d.borough)
+		}
 		const headers = getHeaders(filteredData)
 		this.table = Table({
 			container: '#table',
@@ -38,11 +39,6 @@ class App {
 		}).render()
 	}
 
-	selectRow(region) {
-		if (this.table) {
-			this.table.highlightRow(d => d.region === region)
-		}
-	}
 }
 
 document.addEventListener('DOMContentLoaded', () => {

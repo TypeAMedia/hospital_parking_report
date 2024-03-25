@@ -211,10 +211,12 @@ body {
   margin-top: -4px;
 }
 
-.choices__inner .choices__item[data-value=""] {
+.choices__inner .choices__item {
   font-weight: 800;
   font-family: 'Montserrat';
+  text-transform: uppercase;
 }
+
 
 @media (min-width: 576px) {
 
@@ -234,7 +236,7 @@ body {
     margin-top: 20px;
     margin: 0 auto;
     background: #FFFFFF;
-    max-width: 500px;
+    max-width: 520px;
     padding: 17px;
     border-top: 2px solid #49D69D
   }

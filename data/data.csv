@@ -48,7 +48,7 @@ Kensington and Chelsea,London,46,101,43,256,69,36,"4,363",1.80,4.58,556
 Stafford,West Midlands,47,102,9,267,125,7,11306,2.16,4.45,1461
 Blackpool,North West,48,102,131,153,47,77,1011,1.00,4.62,302
 Waltham Forest,London,49,102,155,88,50,115,744,0.74,4.62,163
-Epsom and Ewell,South East England,50,102.25,74,80,194,61,"2,173",0.71,4.29,389
+Epsom and Ewell,South East,50,102.25,74,80,194,61,"2,173",0.71,4.29,389
 Salford,North West,51,102.5,204,32,30,144,357,0.51,4.70,112
 Mendip,South West,52,103,208,9,22,173,333,0.40,4.74,71
 Kingston upon Thames,London,53,104,23,259,124,10,"6,467",1.84,4.45,1050
@@ -68,7 +68,7 @@ Shropshire,West Midlands,66,111,8,237,172,27,"11,529",1.51,4.33,674
 East Riding of Yorkshire,Yorkshire and The Humber,67,111.25,57,157,179,52,3153,1.01,4.31,430
 Southampton,South East,68,111.25,127,119,99,100,1033,0.87,4.49,214
 Oldham,North West,69,112,61,193,180,14,"2,619",1.18,4.31,906
-East Lindsey,Lincolnshire,70,112.25,66,175,109,99,"2,462",1.06,4.47,215
+East Lindsey,Lincolnshire,70,112.25,66,175,109,99,2462,1.06,4.47,215
 South Northamptonshire,East Midlands,71,112.5,149,25,80,196,804,0.50,4.54,46
 Kingston upon Hull,Yorkshire and The Humber,72,113.75,44,121,211,79,4245,0.88,4.22,299
 Pendle,North West,73,114.25,68,279,42,68,"2,396",4.18,4.64,355
@@ -247,7 +247,7 @@ Sevenoaks,London,247,188.5,242,181,103,228,140,1.10,4.48,22
 Wyre Forest,West Midlands,248,190,209,166,158,227,328,1.03,4.35,25
 Hinckley and Bosworth,East Midlands,249,190.25,213,247,145,156,309,1.64,4.38,96
 Maidstone,South East,250,190.25,172,266,143,180,594,2.10,4.39,60
-Newark and Sherwood,"East Midlands, England",251,190.5,101,229,245,187,"1,577",1.43,3.99,54
+Newark and Sherwood,East Midlands,251,190.5,101,229,245,187,"1,577",1.43,3.99,54
 Hillingdon,London,252,190.75,210,120,255,178,319,0.88,3.91,63
 Carlisle,North West,253,191,263,230,5,266,54,1.45,5.00,5
 Rugby,West Midlands,254,192.75,186,269,176,140,485,2.35,4.32,115
@@ -284,6 +284,6 @@ Bracknell Forest,South East,280,245.5,264,250,220,248,49,1.68,4.19,12
 ,South West,5,5.25,4,7,5,5,70745,1.10,4.37,7992
 ,East of England,6,5.5,7,4,4,7,41219,1.06,4.39,6023
 ,West Midlands,7,5.75,2,10,9,2,104991,2.24,4.28,11176
-,Lincolnshire,8,6,10,3,1,10,"2,462",1.06,4.47,215
+,Lincolnshire,8,6,10,3,1,10,2462,1.06,4.47,215
 ,North East,9,7.25,9,5,7,8,30810,1.07,4.32,4337
-,East Midlands,10,7.75,8,6,8,9,"37,041",1.09,4.29,3872
+,East Midlands,10,7.75,8,6,8,9,37041,1.09,4.29,3872
