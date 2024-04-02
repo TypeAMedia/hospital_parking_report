@@ -39,7 +39,7 @@ function Table(params) {
       cellHeight: 54, // height of each cells in table body
       firstColumnWidth: {
         // city column width (varies based on screen size),
-        xs: 125,
+        xs: 135,
         sm: 145,
         md: 145,
         lg: 145,
@@ -161,7 +161,7 @@ function Table(params) {
     const br = getMobileBreakdown();
 
     if (isMobile(attrs.mobileBreakdown)) {
-      attrs.pagination = true;
+      attrs.pagination = false;
     } else {
       attrs.pagination = false;
     }
@@ -192,14 +192,12 @@ function Table(params) {
             showMore();
           }
         });
-
       adjustShowBtn();
     } else {
       container.selectAll(".show-btn").remove();
     }
 
     d3.select(".table-head.main-column").style("height", null);
-
     addTableHead(resize);
     addTableBody();
     adjustHeight();
@@ -381,7 +379,6 @@ function Table(params) {
     if (d.isMainColumn) {
       return firstColumnWidth + "px";
     }
-
     return `calc((100% - ${firstColumnWidth}px) / ${headers.length - 1})`;
   }
 
@@ -448,8 +445,9 @@ function Table(params) {
 
       table
         .selectAll(".main-column")
-        .style("position", "absolute")
+        .style("position", 'absolute')
         .style("margin-left", -firstColumnWidth + "px");
+
 
       table.style("margin-left", firstColumnWidth + "px");
 

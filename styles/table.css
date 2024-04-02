@@ -1,6 +1,6 @@
 :root {
   --gutter-width: 10px;
-  --gutter-width-mobile: 15px;
+  --gutter-width-mobile: 11px;
   --cell-padding: 6px 0px;
 }
 
@@ -20,6 +20,12 @@
   font-weight: 400;
   font-family: 'PreplyInter';
   src: url(../fonts/PreplyInter-Regular.otf) format("opentype");
+}
+
+@font-face {
+  font-weight: 400;
+  font-family: 'Soleil';
+  src: url(../fonts/SoleilRegular.otf) format('openType');
 }
 
 .table-grid {
@@ -238,6 +244,7 @@
 
 
 .location-box {
+  font-family: 'Soleil';
   display: flex;
   align-items: center;
   border-radius: 2px;

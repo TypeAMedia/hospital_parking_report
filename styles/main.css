@@ -12,6 +12,18 @@
 }
 
 @font-face {
+  font-family: 'Mont';
+  src: url(../fonts/Fontfabric\ -\ Mont\ Regular.otf);
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: "Mont-bold";
+  src: url(../fonts/Fontfabric\ -\ Mont\ Bold.otf);
+  font-weight: 700;
+}
+
+@font-face {
   font-weight: 700;
   font-family: 'PreplyInter';
   src: url(../fonts/PreplyInter-Bold.otf) format("opentype");
@@ -27,6 +39,12 @@
   font-weight: 400;
   font-family: 'PreplyInter';
   src: url(../fonts/PreplyInter-Regular.otf) format("opentype");
+}
+
+@font-face {
+  font-weight: 400;
+  font-family: 'Soleil';
+  src: url(../fonts/SoleilRegular.otf) format('openType');
 }
 
 
@@ -57,7 +75,7 @@ body {
 
 .main-title {
   font-weight: 700;
-  font-family: 'Montserrat';
+  font-family: 'Mont-bold';
   font-size: 40px;
   line-height: 40px;
   text-align: center;
@@ -79,9 +97,6 @@ body {
   padding: 17px;
 }
 
-
-
-.dropdown {}
 
 
 .legend {
