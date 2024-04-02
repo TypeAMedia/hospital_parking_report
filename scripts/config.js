@@ -8,6 +8,8 @@ const triangleUp = `<svg width="11" height="9" viewBox="0 0 11 9" fill="none" xm
 <path d="M5.5 0L10.2631 8.25L0.73686 8.25L5.5 0Z" fill="#101921"/>
 </svg>`;
 
+
+
 function mainHeaderTemplate() {
   return fakePromise(`<div class="loc-header">
     <div class="triangle">${triangleUp}</div>
