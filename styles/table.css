@@ -94,7 +94,7 @@
   font-family: 'PreplyInter';
   line-height: 14px;
   text-align: center;
-  color: var(--black);
+  color: var(--black) !important;
   margin-top: 10px;
 }
 
@@ -322,7 +322,6 @@
 
   .highlighted.table-row {
     background: #EEF1EF;
-
     border: 1px solid #86A896;
     border-radius: 4px;
   }

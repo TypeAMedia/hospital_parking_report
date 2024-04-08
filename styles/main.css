@@ -232,9 +232,7 @@ body {
   text-transform: uppercase;
 }
 
-
 @media (min-width: 576px) {
-
   .sub-title {
     margin: 0 auto;
     max-width: 400px;
